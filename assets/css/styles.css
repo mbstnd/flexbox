@@ -1,0 +1,213 @@
+:root {
+    --platinum: #e8ebe4;
+    --darkjungle: #1b1f21;
+    --bluebell: #a491d2;
+    --oldsilver: #828485;
+    --font-1: "Open Sans", sans-serif;
+    --font-2: "Roboto", sans-serif;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: var(--font-1);
+  }
+  
+  h1 {
+    font-family: var(--font-2);
+    font-weight: 500;
+    font-size: 45px;
+  }
+  
+  .main-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  aside {
+    width: 20%;
+    background-color: #fff;
+  }
+  
+  aside header {
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--platinum);
+  }
+  
+  aside header img {
+    width: 100%;
+    max-width: 45px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+  }
+  
+  aside .usuario {
+    display: flex;
+    align-items: center;
+  }
+  
+  aside small {
+    color: var(--oldsilver);
+    display: block;
+  }
+  
+  aside .iconos i {
+    color: var(--oldsilver);
+    cursor: pointer;
+    margin: 0 0.25rem;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    background-color: var(--platinum);
+    text-align: center;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16), 0 0px 3px rgba(0, 0, 0, 0.23);
+  }
+  .img_manos {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 5px;
+    margin-bottom: 1.25rem;
+  }
+  
+  main p {
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.5;
+  }
+  
+  aside .card{
+    display: flex;
+    align-items: center;
+    padding: 0.75rem 2rem 3rem;
+    
+  
+  }
+  .card-1 {
+    justify-content: center;
+    align-items: center;
+    color: var(--bluebell);
+    border-bottom: 2px solid var(--platinum);
+  }
+
+  .btn--primary {
+    color: #fff;
+    padding: 1rem 5rem;
+    font-size: 100%;
+    background-color: var(--bluebell);
+    
+  }
+
+  aside .usuario-2 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+    
+  }
+
+  aside .usuario-2{
+
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+
+
+
+  aside .usuario-3 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+  
+  }
+
+  aside .usuario-3 {
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+
+  aside .usuario-4 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+  }
+
+  aside .usuario-4 {
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+
+  aside .usuario-5 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+
+  }
+  
+  aside .usuario-5{
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+
+  aside .usuario-6 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+  }
+
+  aside .usuario-6 {
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+
+  aside .usuario-7 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+  }
+
+  aside .usuario-7 {
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+
+  aside .usuario-8 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+  }
+
+  aside .usuario-8 {
+    padding: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+
+  aside .usuario-9 img {
+    width: 100%;
+    max-width: 70px;
+    border-radius: 50%;
+    margin: 0.75rem;
+    border-bottom: 2px solid var(--platinum);
+  }
+  
+  aside .usuario-9 {
+    padding: 0.75rem;
+  }
+
